@@ -26,6 +26,7 @@ The Python language is used together with some of it's most popular libraries:
 * requests
 * BeautifulSoup
 * Tweepy
+
 You can write your code in Jupyter Notebook or use an IDE like VSCode.
 
 
@@ -58,7 +59,7 @@ James Gabriel @thenaijacarguy
 
 * 2.0
     * changes to the `updating status` line to split tweet into thread
-    * See [commit change]()
+
 * 1.0
     * Initial Release
 
