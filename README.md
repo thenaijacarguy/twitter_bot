@@ -1,62 +1,68 @@
 # Project Title
 
-Simple overview of use/purpose.
+Twitter Bot
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This repository contains details about the @BlackPythonLove Twitter Bot automated by @thenaijacarguy.
+
+The bot is intended to do these things:
+- visit theverge.com
+- go to the tech news
+- pick the first headline
+- get the short text description
+- get the picture for the headline
+- get the link to the full story
+- save the picture as a file
+- upload the picture to get the media_id
+- concatenate the headline, short description, link, and hashtag to form a tweet
+- then tweet the concatenated text with the image
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+The Python language is used together with some of it's most popular libraries:
+* requests
+* BeautifulSoup
+* Tweepy
+You can write your code in Jupyter Notebook or use an IDE like VSCode.
+
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* The libraries can be installed using pip 
+```
+pip install requests
+```
+* After installation you can import the libraries normally.
+```
+import requests
+```
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Save the code in a .py file to be deployed on Way Script or any deployment platform you intend to use.
+
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Ensure that the intended output for the script is displayed when you deploy it, otherwise it won't function as intended.
 
 ## Authors
 
-Contributors names and contact info
+James Gabriel @thenaijacarguy
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
+* 2.0
+    * changes to the `updating status` line to split tweet into thread
+    * See [commit change]()
+* 1.0
     * Initial Release
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Myself, James Gabriel 😁
