@@ -2,11 +2,11 @@ import tweepy
 import requests
 from bs4 import BeautifulSoup
 # keys and tokens
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAABVZmQEAAAAAatqB%2FkOx%2Bp5mn5pv2mh324CqxBs%3DaqjmGOBVmM0CVKAs9IyjUAjEm3gNk5WAg77cx8iH7Os3kfiMO4'
-consumer_key = 'pwyZBxzrCn2xkhWV6kYnN5orF'
-consumer_secret = 'IPZXeOXw3AmgJDZYVuFpIEh6Rzo3p0CLPgNUew555gVymhLuYt'
-access_token = '1528686812130066433-w66qdkFxA8Px2gmXluF5yVQWnSFQ8I'
-access_secret = 'ijv2RpvAFzr0a4GK9DmRaRyld6kK4m8Ez7UxFZVOnaUzF'
+bearer_token = 'xxxxxx'
+consumer_key = 'xxxxxx'
+consumer_secret = 'xxxxxxxx'
+access_token = 'xxxxxxx'
+access_secret = 'xxxxxxxxx'
 
 client = tweepy.Client(bearer_token=bearer_token, consumer_key=consumer_key, consumer_secret=consumer_secret,
                       access_token=access_token, access_token_secret=access_secret)
